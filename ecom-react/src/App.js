@@ -1,16 +1,29 @@
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./components/index";
+import Products from "./components/Products";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
 import Footer from "./components/Footer";
 
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
-      <Home />
+      <div>
+        {/* A <Switch> looks through its children <Route>s and
+          renders the first one that matches the current URL. */}
+        <Routes>
+          <Route path="/Contact" element={<Contact />}></Route>
+          <Route path="/Products" element={<Products />}></Route>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </div>
       <Footer />
-    </div>
+    </Router>
   );
 }
+
 export default App;

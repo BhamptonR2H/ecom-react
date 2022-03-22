@@ -7,87 +7,6 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://bookriot.com/wp-content/uploads/2020/09/vinyl-records-feature-700x375-1-1280x720.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Navbar Home Page */
-.topnav {
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.topnav img {
-  width: 50px;
-  height: 50px;
-  float: left;
-}
-
-.topnav a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-}
-
-.topnav a:hover {
-  color: #916bbf;
-  transition: 0.5s;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 50px;
-  float: left;
-}
-
-.hero-text h1 {
-  color: white;
-}
-
-.hero-text p {
-  font-size: 30px;
-}
-
-.hero-text a {
-  color: white;
-  text-decoration: none;
-  border: solid 1px white;
-  margin: 0px 20px;
-  padding: 12px 25px;
-}
-
-#firstB {
-  background-color: black;
-  color: white;
-  transition: 0.5s;
-  cursor: pointer;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-#firstB:hover {
-  background: #916bbf;
-}
-
-/* Nav Bar Product/Contact */
 .container ul {
   list-style-type: none;
   margin: 0;
@@ -124,144 +43,6 @@ html {
   height: 50px;
 }
 
-/* Top Selling Products */
-h2 {
-  color: #916bbf;
-}
-
-.featured-products {
-  margin-top: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-}
-
-@media (max-width: 1000px) {
-  .featured-products {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 800px) {
-  .featured-products {
-    grid-template-columns: 1fr;
-  }
-}
-.featured-products-title {
-  text-align: center;
-}
-
-.featured-product-item {
-  border-radius: 5px;
-  overflow: hidden;
-  text-align: center;
-  box-sizing: border-box;
-  border: 1px solid white;
-  background-color: #916bbf;
-}
-
-.featured-product-item-image {
-  height: 355px;
-  width: 400px;
-  background-size: cover;
-  background-position: center;
-}
-
-.featured-product-item > .title {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.featured-product-item > .description {
-  color: black;
-}
-
-.featured-product-item > .price {
-  font-style: italic;
-}
-
-button {
-  outline: none;
-  background: black;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 5px;
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-/* Products Page */
-h1 {
-  text-align: center;
-  color: #916bbf;
-}
-
-/* Contact */
-form {
-  max-width: 420px;
-  margin: 50px auto;
-}
-
-.contact {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-
-.feedback-input {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border: 2px solid #916bbf;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  outline: 0;
-  justify-content: center;
-}
-
-.feedback-input:focus {
-  border: 2px solid lightskyblue;
-}
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
-
-[type="submit"] {
-  font-family: "Poppins", sans-serif;
-  width: 100%;
-  background: #916bbf;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: 0.5s;
-  margin-top: -4px;
-  font-weight: 700;
-}
-
-[type="submit"]:hover {
-  background-color: gray;
-}
-
-/* Footer */
 #footer a {
   color: #916bbf;
   margin: 10px;
@@ -329,6 +110,124 @@ textarea {
   #footer p {
     font-size: 16px;
   }
+}
+h2 {
+  color: #916bbf;
+}
+
+.featured-products {
+  margin-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.featured-products-title {
+  text-align: center;
+}
+
+.featured-product-item {
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: #916bbf;
+}
+
+.featured-product-item-image {
+  height: 355px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.featured-product-item > .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.featured-product-item > .description {
+  color: black;
+}
+
+.featured-product-item > .price {
+  font-style: italic;
+}
+
+button {
+  outline: none;
+  background: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.contact {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.feedback-input {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #916bbf;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  justify-content: center;
+}
+
+.feedback-input:focus {
+  border: 2px solid lightskyblue;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type=submit] {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  background: #916bbf;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.5s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type=submit]:hover {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=app.css.map */

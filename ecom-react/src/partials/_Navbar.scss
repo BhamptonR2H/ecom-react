@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background: black;
+  font-family: "Poppins", sans-serif;
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #916bbf;
+  font-family: "Poppins", sans-serif;
+}
+
+.container li {
+  float: left;
+}
+
+.container li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container li a:hover {
+  color: white;
+  transition: 0.5s;
+}
+.container .title {
+  padding-right: 600px;
+}
+.container img {
+  float: left;
+  height: 50px;
+}
