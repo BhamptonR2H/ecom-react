@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Whole Lotta Red Vinyl",
+    "description": "Instead of Mariah Carey for Christmas listen to some Playboi Carti",
+    "price": "50.00",
+    "image": "public/img/wlr.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "TLOP 5 Vinyl",
+    "description": "grab one of the best albums of 2021",
+    "price": "40.00",
+    "image": "public/img/tlop5.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Thriller Vinyl",
+    "description": "Micheal Jacksons Best Album and the best album of all-time",
+    "price": "90.00",
+    "image": "public/img/thriller.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Graduation Vinyl",
+    "description": "One of the greatest albums with multiple songs that age like wine and are so iconic. This album proved once again how kanye shaped a new era of hiphop, music in general and fashion.",
+    "price": "70.00",
+    "image": "public/img/graduation.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "More Life Vinyl",
+    "description": "Its a OVO ting ya know!",
+    "price": "50.00",
+    "image": "public/img/ovo.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Positions Vinyl",
+    "description": "Positions is the sixth studio album by American singer Ariana Grande.",
+    "price": "60.00",
+    "image": "public/img/ari.png"
+  },
+  {
+    "id": 7,
+    "title": "Evermore Vinyl",
+    "description": "Listen to another one Taylors heartbreaks",
+    "price": "80.00",
+    "image": "public/img/tswift.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Currents Vinyl",
+    "description": "Feel Good Vibes & Tame Impalas Best Album",
+    "price": "40.00",
+    "image": "public/img/tame.png"
+  },
+  {
+    "id": 9,
+    "title": "Die Lit Vinyl",
+    "description": "This album essentially created music.There has never, and will never be an album as good as this album. Mozart, Bach, Beethoven, the Beatles, none can make anything close to as good as this masterpiece",
+    "price": "50.00",
+    "image": "public/img/die.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "The Suns Tirade",
+    "description": "By Isaiah's definition, a sun's tirade means a long and hot day with the sun beating down on you. You're tired and contemplating about what you did the whole time, with Rashad's case, it's an allegory for thetroubles he faced at that point.",
+    "price": "40.00",
+    "image": "public/img/suns.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Wunna",
+    "description": "Gunna best album",
+    "price": "60.00",
+    "image": "public/img/wunna.webp"
+  },
+  {
+    "id": 12,
+    "title": "Yeezus",
+    "description": "Yeezus is a concept album; a narrative album; a singular story with a beginning, middle, and end following the journey of an anti-hero from supreme arrogance to vulnerable weakness to becoming a cautious romantic.",
+    "price": "90.00",
+    "image": "public/img/yeezus.jpeg"
+  }
+]
