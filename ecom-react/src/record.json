@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Red Record Player",
+    "description": "A Red Record Player You Can Play Your Vinyls On",
+    "price": "50.00",
+    "image": "img/red.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Blue Record Player",
+    "description": "A Blue Record Player You Can Play Your Vinyls On",
+    "price": "50.00",
+    "image": "img/bvinyl.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Purple Record Player",
+    "description": "A Purple Record Player You Can Play Your Vinyls On",
+    "price": "50.00",
+    "image": "img/purple.jpg"
+  }
+]

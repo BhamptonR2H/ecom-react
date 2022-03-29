@@ -3,9 +3,9 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Outlet,
-  Link,
-  useRouteMatch,
-  useParams,
+  // Link,
+  // useRouteMatch,
+  // useParams,
 } from "react-router-dom";
 
 export default class Nav extends React.Component {

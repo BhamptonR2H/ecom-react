@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "Name": "John Cena",
+    "Review": "Great Quality, No scratches",
+    "image": "/img/male3.png"
+  },
+  {
+    "id": 2,
+    "Name": "The Rock",
+    "Review": "Shipped Very Fast, would reccomend to everyone who loves to collect vinyls",
+    "image": "/img/male1.png"
+  },
+  {
+    "id": 3,
+    "Name": "Zendaya",
+    "Review": "I took out my airpods to listen to whole lotta red on my red record player. BEST DECISION EVER!",
+    "image": "/img/female.png"
+  }
+]

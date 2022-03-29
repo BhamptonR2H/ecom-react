@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../products.json";
+import axios from "axios";
 const Cards = (props) => {
   return (
     <>
@@ -8,7 +9,7 @@ const Cards = (props) => {
         {data.map((vinyl) => {
           return (
             <div className="card">
-              <img src={vinyl.image} className="card-img" />
+              <img src={vinyl.image} alt={vinyl.title} className="card-img" />
               <div className="card-body">
                 <h2 className="card-title">{vinyl.title}</h2>
                 <p className="card-description">{vinyl.description}</p>
