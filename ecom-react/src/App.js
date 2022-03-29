@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/index";
-import Products from "./components/Products";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

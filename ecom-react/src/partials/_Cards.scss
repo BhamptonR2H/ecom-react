@@ -1,0 +1,91 @@
+.p-heading {
+  text-align: center;
+  color: #916bbf;
+}
+.card-format {
+  margin: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 0.1rem;
+  min-width: 29rem;
+  display: grid;
+  background-color: #916bbf;
+  text-align: center;
+
+  &-img {
+    width: 29rem;
+    height: 25rem;
+    object-fit: cover;
+  }
+
+  &-body {
+    margin: 0.4rem;
+    flex-grow: 1;
+  }
+  &-title {
+    line-height: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  &-description {
+    line-height: 1.2rem;
+  }
+  &-price {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+
+    &::before {
+      content: "$";
+      font-size: 1rem;
+      position: relative;
+      top: -0.3rem;
+      padding-right: 0.1rem;
+    }
+  }
+
+  &-btn {
+    border: none;
+    border-top: 1px solid black;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    color: inherit;
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .card-format {
+    width: 100%;
+    max-width: 80%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+    min-width: 14rem;
+    background-color: #916bbf;
+    border: solid white 0.1rem;
+
+    &-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

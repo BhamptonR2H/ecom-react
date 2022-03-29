@@ -1,0 +1,71 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://bookriot.com/wp-content/uploads/2020/09/vinyl-records-feature-700x375-1-1280x720.jpg");
+  height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar Home Page */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+.topnav img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.topnav a:hover {
+  color: #916bbf;
+  transition: 0.5s;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  float: left;
+}
+.hero-text h1 {
+  color: white;
+}
+.hero-text p {
+  font-size: 30px;
+}
+.hero-text a {
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+  margin: 0px 20px;
+  padding: 12px 25px;
+}
+#firstB {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+#firstB:hover {
+  background: #916bbf;
+}
