@@ -23,13 +23,16 @@ app.use(cors());
 
 // Render my database
 app.get("/product", (req, res) => {
-  db.query("SELECT * FROM products", (err, result) => {
-    if (err) {
-      console.log(err);
-    } else {
-      res.send(result);
-    }
-  });
+  if (req.query) {
+    queryValue = req.query;
+    db.query("SELECT * FROM products", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  }
 });
 // What port its running on
 app.listen(5000, () => {

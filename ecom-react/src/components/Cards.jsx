@@ -14,14 +14,14 @@ const Cards = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     // GET Request using axios inside useEffect React hook
-    Axios.get("http://localhost:5000/product")
+    Axios.get(`http://localhost:5000/product?${price}&${genre}`)
       .then((response) => {
         setProducts(response.data);
       })
       .catch((err) => {
         throw err;
       });
-  });
+  }, [genre, price]);
   return (
     <>
       {/* Created 2 dropdowns, Passed in onChange function*/}
