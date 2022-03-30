@@ -160,7 +160,8 @@ form {
 }
 
 .contact {
-  color: white;
+  color: #916bbf;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -378,6 +379,11 @@ textarea {
     height: auto;
   }
 }
+.Filter {
+  color: white;
+  text-align: center;
+}
+
 .main-heading {
   font-size: 3rem;
   color: #916bbf;
@@ -419,14 +425,14 @@ textarea {
 .testimonial-name {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: white;
+  color: #916bbf;
 }
 
 .Review {
   font-size: 2rem;
   margin-bottom: 0.3rem;
   font-weight: bold;
-  color: white;
+  color: #916bbf;
 }
 
 .testimonial {
