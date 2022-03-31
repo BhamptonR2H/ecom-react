@@ -34,6 +34,7 @@ class Contact extends React.Component {
   render() {
     return (
       <section class="contact">
+        <h1> Contact </h1>
         <form>
           <input
             name="name"
