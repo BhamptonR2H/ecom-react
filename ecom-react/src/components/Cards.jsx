@@ -14,7 +14,7 @@ const Cards = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     // GET Request using axios inside useEffect React hook
-    Axios.get(`http://localhost:5000/api/product?${price}&${genre}`)
+    Axios.get(`http://52.91.14.231:5000/api/product?${price}&${genre}`)
       .then((response) => {
         setProducts(response.data);
       })
