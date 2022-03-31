@@ -5,9 +5,10 @@ const mysql = require("mysql");
 const app = express();
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "Frmarsid_29",
+  host: "products.cotxlsco91bc.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  user: "admin",
+  password: "Frmarsid35",
   database: "Products",
 });
 // Making sure it connects
@@ -22,17 +23,14 @@ app.use(express.json());
 app.use(cors());
 
 // Render my database
-app.get("/product", (req, res) => {
-  if (req.query) {
-    queryValue = req.query;
-    db.query("SELECT * FROM products", (err, result) => {
-      if (err) {
-        console.log(err);
-      } else {
-        res.send(result);
-      }
-    });
-  }
+app.get("/api/product", (req, res) => {
+  db.query("SELECT * FROM products", (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
 });
 // What port its running on
 app.listen(5000, () => {
